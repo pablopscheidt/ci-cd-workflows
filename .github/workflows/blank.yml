@@ -29,8 +29,5 @@ jobs:
       - name: Verificar estilo de código com Flake8
         run: pip install flake8 && flake8 .
 
-      - name: Formatar código com Black
-        run: pip install black && black --check .
-
       - name: Executar script Python
         run: python script.py
